@@ -101,7 +101,7 @@ lowCandidate    =  {[224,   439,    345,    305],
                     [1598,  1758,   1797,   1834]
                     };
                 
-if visualize:
+if visualize
     fig=  figure;
     subplot = @(m,n,p) subtightplot (m, n, p, [0.07 -0.0], [0.01 0.05], [0 0]);
     for class = 1:NClass
